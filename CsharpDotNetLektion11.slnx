@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Opgaver/">
+    <File Path="OPGAVEBESKRIVELSE.md" />
+  </Folder>
+  <Project Path="AspireApp/AspireApp.AppHost/AspireApp.AppHost.csproj" />
+  <Project Path="AspireApp/AspireApp.ServiceDefaults/AspireApp.ServiceDefaults.csproj" />
+</Solution>
