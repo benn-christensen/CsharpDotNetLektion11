@@ -156,7 +156,7 @@ Mange forbrugere mister overblikket over deres faste digitale abonnementer (stre
 4. **Fejlhåndtering og Feedback:**
    * Brugeren skal have visuel feedback ved indlæsning (loading spinner/skelet), succeshandlinger og API-fejlbeskeder.
 
-### C. .NET Aspire & DevOps
+### C. .NET Aspire
 1. **Orkestrering i AppHost:**
    * AppHost skal registrere PostgreSQL-databasen, Web API-projektet og Blazor-projektet.
    * Forbindelser skal defineres med `.WithReference(...)`:
