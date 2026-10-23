@@ -1,0 +1,6 @@
+@EaaaTrackApi_HostAddress = http://localhost:5054
+
+GET {{EaaaTrackApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
