@@ -5,4 +5,5 @@
   <Project Path="AspireApp/AspireApp.AppHost/AspireApp.AppHost.csproj" />
   <Project Path="AspireApp/AspireApp.ServiceDefaults/AspireApp.ServiceDefaults.csproj" />
   <Project Path="EaaaTrackApi/EaaaTrackApi.csproj" />
+  <Project Path="MigrationWorker/MigrationWorker.csproj" />
 </Solution>

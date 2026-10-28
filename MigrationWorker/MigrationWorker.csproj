@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-MigrationWorker-16582f42-8374-4c8b-8516-a8e60a661a58</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.6.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.14">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.13"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AspireApp\AspireApp.ServiceDefaults\AspireApp.ServiceDefaults.csproj" />
+      <ProjectReference Include="..\EaaaTrackApi\EaaaTrackApi.csproj" />
+    </ItemGroup>
+</Project>

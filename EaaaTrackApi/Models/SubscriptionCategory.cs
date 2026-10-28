@@ -1,3 +1,7 @@
 ﻿namespace EaaaTrackApi.Models;
 
-public record SubscriptionCategory(int Id, string Name);
+public class SubscriptionCategory
+{
+    public int Id { get; set; }
+    public required string Name { get; set; }
+}

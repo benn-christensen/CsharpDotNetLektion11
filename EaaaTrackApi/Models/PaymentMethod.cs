@@ -1,3 +1,7 @@
 ﻿namespace EaaaTrackApi.Models;
 
-public record PaymentMethod(int Id, string Name);
+public class PaymentMethod
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+}
